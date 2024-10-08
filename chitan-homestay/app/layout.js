@@ -13,8 +13,8 @@ import Header from "./_components/Header";
 export const metadata = {
   //title: "CHITAN Homestay",
   title: {
-    template: "%s / CHITAN Homestay",
-    default: "Welcome / CHITAN Homestay",
+    template: "%s / Chitan Homestay",
+    default: "Welcome / Chitan Homestay",
   },
   desciption:
     "Luxurious cabin hotel, located in the heart of the DALAT, surrounded by beautiful mountains and dark forests",

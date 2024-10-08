@@ -8,17 +8,17 @@ function Logo() {
         src="/logo.png"
         height="60"
         width="60"
-        alt="CHITAN Homestay logo"
+        alt="Chitan Homestay logo"
       />*/}
       <Image
         src={logo}
         height="60"
         quality={100}
         width="60"
-        alt="CHITAN Homestay logo"
+        alt="Chitan Homestay logo"
       />
       <span className="text-xl font-semibold text-primary-100">
-        CHITAN Homestay
+        Chitan Homestay
       </span>
     </Link>
   );
