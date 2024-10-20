@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Guest",
+  title: "Tài khoản",
 };
 
 export default function Page() {

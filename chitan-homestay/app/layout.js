@@ -14,7 +14,7 @@ export const metadata = {
   //title: "CHITAN Homestay",
   title: {
     template: "%s / Chitan Homestay",
-    default: "Welcome / Chitan Homestay",
+    default: "Chitan Homestay",
   },
   desciption:
     "Luxurious cabin hotel, located in the heart of the DALAT, surrounded by beautiful mountains and dark forests",

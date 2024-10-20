@@ -9,7 +9,7 @@ export default function Navigation() {
             href="/cabins"
             className="hover:text-accent-400 transition-colors"
           >
-            Cabins
+            Phòng
           </Link>
         </li>
         <li>
@@ -17,7 +17,7 @@ export default function Navigation() {
             href="/about"
             className="hover:text-accent-400 transition-colors"
           >
-            About
+            Về chúng tôi
           </Link>
         </li>
         <li>
@@ -25,7 +25,7 @@ export default function Navigation() {
             href="/account"
             className="hover:text-accent-400 transition-colors"
           >
-            Guest
+            Khách hàng
           </Link>
         </li>
       </ul>
