@@ -24,7 +24,7 @@ export default function Page() {
           </p>
           <p>
             8 căn phòng sang trọng của chúng tôi mang đến cho bạn một không gian
-            ấm cúng, nhưng sự tự do và bình yên thật sự nằm ở những ngọn đồi bao
+            ấm cúng, sự tự do và bình yên thật sự nằm ở những ngọn đồi bao
             quanh. Hãy dạo bước qua những khu rừng thông xanh tươi, hít thở bầu
             không khí trong lành, và ngắm nhìn bầu trời sao lấp lánh từ bên ánh
             lửa trại ấm áp hay thư giãn trong bồn tắm nước nóng riêng của bạn.
@@ -39,11 +39,20 @@ export default function Page() {
       </div>
 
       <div className="col-span-2">
-        <Image src={image1} alt="Giới thiệu về Chitan Homestay" />
+        <Image
+          src={image1}
+          alt="Giới thiệu về Chitan Homestay"
+          placeholder="blur"
+        />
       </div>
 
       <div className="relative aspect-square col-span-2">
-        <Image src={image2} alt="Family that manages" />
+        <Image
+          src={image2}
+          alt="Gia dinh quan ly 2019"
+          fill
+          className="object-cover"
+        />
       </div>
 
       <div className="col-span-3">
