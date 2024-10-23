@@ -4,12 +4,12 @@ import logo from "@/public/logo.png";
 function Logo() {
   return (
     <Link href="/" className="flex items-center gap-4 z-10">
-      {/*<Image
+      {<Image
         src="/logo.png"
         height="60"
         width="60"
         alt="Chitan Homestay logo"
-      />*/}
+      />}
       <Image
         src={logo}
         height="60"
